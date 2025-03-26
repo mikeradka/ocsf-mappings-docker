@@ -12,5 +12,5 @@ $ docker run --name ocsf_mappings --rm \
 	-it splunk/splunk:latest
 ```
 
-- Username: admin
-- Password: ocsfmappings
+- Username: `admin`
+- Password: `ocsfmappings`
