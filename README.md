@@ -35,6 +35,17 @@ index=ocsf sourcetype=ocsf:okta:im2:log
 | stats count by category_name, class_name, activity_name
 ```
 
+## Adding more data
+You can also mount a volume with additional datasets for monitoring in Splunk using `-v`:
+
+```sh
+$ docker run --name ocsf-mappings --rm \
+  --platform linux/amd64 \
+  -p 8000:8000 \
+  -v /your/src/dataset_name:/mnt/dataset_name \
+  -it mrsplunk/ocsf-mappings:latest
+```
+
 ## Docker Troubleshooting
 ```sh
 $ docker run --name ocsf-mappings --rm \
