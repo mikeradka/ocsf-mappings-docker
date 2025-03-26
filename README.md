@@ -13,7 +13,7 @@ $ docker run --name ocsf_mappings --rm \
 ```
 
 ## Log In:
-- Open http://localhost:8000/
+- Open http://localhost:8000/en-US/app/search/search/
 - Username: `admin`
 - Password: `ocsfmappings`
 
