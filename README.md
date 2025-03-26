@@ -35,6 +35,12 @@ index=ocsf sourcetype=ocsf:okta:im2:log
 | stats count by category_name, class_name, activity_name
 ```
 
+```js
+index=ocsf 
+| stats count values(activity_name) by category_name, class_name
+| sort - count
+```
+
 ## Adding more data
 You can also mount a volume with additional datasets for monitoring in Splunk using `-v`:
 
