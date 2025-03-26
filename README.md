@@ -1,15 +1,12 @@
 # ocsf-mappings-docker
 OCSF Mappings Docker - a docker instance with OCSF mapped events.
 
-
 ## How to run:
 ```sh
-$ docker run --name ocsf_mappings --rm \
+$ docker run --name ocsf-mappings --rm \
 	--platform linux/amd64 \
-	-v ./TA-OCSF_Mappings:/opt/splunk/etc/apps/TA-OCSF_Mappings \
-	-p 8000:8000 -e "SPLUNK_PASSWORD=ocsfmappings" \
-	-e "SPLUNK_START_ARGS=--accept-license" \
-	-it splunk/splunk:latest
+	-p 8000:8000 \
+	-it mrsplunk/ocsf-mappings:latest
 ```
 
 ## Log In:
@@ -24,4 +21,14 @@ $ docker run --name ocsf_mappings --rm \
 
 ```js
 index=ocsf
+```
+
+## Docker Troubleshooting
+```sh
+$ docker run --name ocsf-mappings --rm \
+	--platform linux/amd64 \
+	-v ./TA-OCSF_Mappings:/opt/splunk/etc/apps/TA-OCSF_Mappings \
+	-p 8000:8000 -e "SPLUNK_PASSWORD=ocsfmappings" \
+	-e "SPLUNK_START_ARGS=--accept-license" \
+	-it splunk/splunk:latest
 ```
