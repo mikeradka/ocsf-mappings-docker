@@ -27,7 +27,12 @@ index=ocsf
 
 ```js
 index=ocsf
-| stats count by metadata.version, sourcetype
+| stats cou
+```
+
+```js
+index=ocsf sourcetype=ocsf:okta:im2:log 
+| stats count by category_name, class_name, activity_name
 ```
 
 ## Docker Troubleshooting
