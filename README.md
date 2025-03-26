@@ -26,18 +26,13 @@ index=ocsf
 - Try some simple searches:
 
 ```js
-index=ocsf
-| stats cou
-```
-
-```js
 index=ocsf sourcetype=ocsf:okta:im2:log 
 | stats count by category_name, class_name, activity_name
 ```
 
 ```js
 index=ocsf 
-| stats count values(activity_name) by category_name, class_name
+| stats count by category_name, class_name, activity_name, metadata.version, metadata.event_code
 | sort - count
 ```
 
