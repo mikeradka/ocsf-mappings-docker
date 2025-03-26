@@ -1,6 +1,8 @@
 # ocsf-mappings-docker
 OCSF Mappings Docker - a docker instance with OCSF mapped events.
 
+
+## How to run:
 ```sh
 $ docker run --name ocsf_mappings --rm \
 	--platform linux/amd64 \
@@ -10,5 +12,5 @@ $ docker run --name ocsf_mappings --rm \
 	-it splunk/splunk:latest
 ```
 
-Username: admin
-Password: ocsfmappings
+- Username: admin
+- Password: ocsfmappings
