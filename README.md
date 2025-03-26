@@ -1,2 +1,2 @@
-# ocsf-examples-docker
-OCSF Examples Docker - a docker instance with OCSF mapped events.
+# ocsf-mappings-docker
+OCSF Mappings Docker - a docker instance with OCSF mapped events.
