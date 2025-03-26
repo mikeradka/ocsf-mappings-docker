@@ -9,3 +9,6 @@ $ docker run --name ocsf_mappings --rm \
 	-e "SPLUNK_START_ARGS=--accept-license" \
 	-it splunk/splunk:latest
 ```
+
+Username: admin
+Password: ocsfmappings
