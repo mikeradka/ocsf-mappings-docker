@@ -23,6 +23,13 @@ $ docker run --name ocsf-mappings --rm \
 index=ocsf
 ```
 
+- Try some simple searches:
+
+```js
+index=ocsf
+| stats count by metadata.version, sourcetype
+```
+
 ## Docker Troubleshooting
 ```sh
 $ docker run --name ocsf-mappings --rm \
