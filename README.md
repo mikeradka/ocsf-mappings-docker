@@ -14,3 +14,12 @@ $ docker run --name ocsf_mappings --rm \
 
 - Username: `admin`
 - Password: `ocsfmappings`
+
+## How to search:
+
+- Set search period to `All time`.
+- Query the `ocsf` index:
+
+```js
+index=ocsf
+```
