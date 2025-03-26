@@ -19,7 +19,7 @@ $ docker run --name ocsf_mappings --rm \
 
 ## How to search:
 
-- Set search period to `All time`.
+- Set date-time picker to `All time`.
 - Query the `ocsf` index:
 
 ```js
