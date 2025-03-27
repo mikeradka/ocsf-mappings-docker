@@ -12,5 +12,8 @@ COPY ./TA-OCSF_Mappings /opt/splunk/etc/apps/TA-OCSF_Mappings
 # This sets the default search earliest to 'All time'
 COPY ./config/user-prefs.conf /opt/splunk/etc/system/local/user-prefs.conf
 
+# Disable the ui tour
+COPY ./config/ui-tour.conf /opt/splunk/etc/system/local/ui-tour.conf
+
 # Expose the SplunkWeb Port
 EXPOSE 8000
