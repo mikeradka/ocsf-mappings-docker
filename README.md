@@ -1,5 +1,5 @@
 # ocsf-mappings-docker
-OCSF Mappings Docker - a docker instance with OCSF mapped events.
+OCSF Mappings Docker - a Splunk docker instance with OCSF mapped events.
 
 [Docker Hub Repository: ocsf-mappings](https://hub.docker.com/repository/docker/mrsplunk/ocsf-mappings/general)
 
