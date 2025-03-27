@@ -16,7 +16,7 @@ $ docker run --name ocsf-mappings --rm \
 
 ## How to search:
 
-- If the date-time picker is not already set to `All time`, set it as such.
+- Set the date-time picker to `All time` if it's not already configured.
 - Query the `ocsf` index:
 
 ```js
