@@ -45,7 +45,7 @@ You can also mount a volume with additional datasets for monitoring in Splunk us
 $ docker run --name ocsf-mappings --rm \
   --platform linux/amd64 \
   -p 8000:8000 \
-  -v /your/src/dataset_name:/mnt/dataset_name \
+  -v /your/src/dataset_name:/your/dst/dataset_name \
   -it mrsplunk/ocsf-mappings:latest
 ```
 
