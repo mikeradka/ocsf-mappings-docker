@@ -11,6 +11,12 @@ $ docker run --name ocsf-mappings --rm \
 	-it mrsplunk/ocsf-mappings:latest
 ```
 
+Once you see this, you are ready to open a browser and log in:
+
+```
+Ansible playbook complete, will begin streaming splunkd_stderr.log
+```
+
 ## Log In:
 - Open http://localhost:8000/
 - Username: `admin`
